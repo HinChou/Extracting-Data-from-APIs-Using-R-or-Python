@@ -1,6 +1,6 @@
 Example: LinkedIn
 
-Step 1 ！  Create an application, Configuring your LinkedIn application
+Step 1 -  Create an application, Configuring your LinkedIn application
 
 Get client_id=XXX & client_secret=XXX
 
@@ -9,7 +9,7 @@ Authorized Redirect URLs: (As same as Default "Accept" Redirect URL and Default 
 https://YourLinkedinURL/auth/callback
 Eg: https://www.linkedin.com/in/data-science/auth/callback
 
-Step 2 ！ Request an Authorization Code
+Step 2  -  Request an Authorization Code
 Put the following url to your browser:
 https://www.linkedin.com/oauth/v2/authorization?response_type=code&client_id=XXX&redirect_uri=https%3A%2F%2Fwww.linkedin.com/in/data-science/auth/callback&state=XXX&scope=r_basicprofile
 
@@ -18,14 +18,14 @@ www.XXX.com
 
 Attached to the redirect_uri will be two important URL arguments that you need to read from the request:
 
-code ！ The OAuth 2.0 authorization code.
-state ！ A value used to test for possible CSRF attacks.
+code  -  The OAuth 2.0 authorization code.
+state  -  A value used to test for possible CSRF attacks.
 
 Save the code:
 code=XXX
 
 
-Step 3 ！ Exchange Authorization Code for an Access Token
+Step 3  -  Exchange Authorization Code for an Access Token
 
 Send a Post request. You Can use: http://requestmaker.com
 #############
