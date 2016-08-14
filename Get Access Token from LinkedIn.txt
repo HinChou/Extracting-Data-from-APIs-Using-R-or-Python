@@ -1,4 +1,4 @@
-Example: LinkedIn
+Example: LinkedIn (All "XXX" mean the customized or private data from user)
 
 Step 1 -  Create an application, Configuring your LinkedIn application:
 
