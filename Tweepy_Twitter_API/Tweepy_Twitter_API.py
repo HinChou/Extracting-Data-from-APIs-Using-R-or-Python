@@ -9,12 +9,19 @@ import tweepy
 import re
 
 
+
 def get_text_twitter(twitter_id, cs_key, cs_secret, as_token, as_token_secret):
     """
     Get maximal amount of twitters from an account(twitter_id),
     which can be found after the "id_str" in "view page source".
     The approximate maximum amount is around 3200, 
     which is limited by tweepy.
+    
+    Parameters:
+    cs_key = Consumer Key (API Key)
+    cs_secret = Consumer Secret (API Secret)
+    as_token = Access Token
+    as_token_secret = Access Token Secret
     """
     auth = tweepy.OAuthHandler(cs_key, cs_secret)
     
