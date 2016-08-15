@@ -23,25 +23,23 @@ def get_text_twitter(twitter_id, cs_key, cs_secret, as_token, as_token_secret):
     as_token = Access Token
     as_token_secret = Access Token Secret
     """
+    
     auth = tweepy.OAuthHandler(cs_key, cs_secret)
     
     auth.set_access_token(as_token, as_token_secret)
     
     api = tweepy.API(auth)
-    
 
     try:
         user_tweets = tweepy.Cursor(api.user_timeline, id = twitter_id).pages()
-        
         # list comprehension, which is equal to:
         #    for tweet in user_tweets:
         #        twitter_contents.append(tweet)
         twitter_contents = [tweet for tweet in user_tweets]
-            
+        
     except tweepy.TweepError as e:
         return ('Error: ', e)
             
-    
     tweet_all_list = []
     
     #Compiled the regex and made the regex case-insensitive
