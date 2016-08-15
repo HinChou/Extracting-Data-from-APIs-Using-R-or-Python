@@ -18,8 +18,8 @@ def get_text_twitter(twitter_id, cs_key, cs_secret, as_token, as_token_secret):
     which is limited by tweepy.
     
     Parameters:
-    cs_key = Consumer Key (API Key)
-    cs_secret = Consumer Secret (API Secret)
+    cs_key = Consumer Key / API Key
+    cs_secret = Consumer Secret / API Secret
     as_token = Access Token
     as_token_secret = Access Token Secret
     """
