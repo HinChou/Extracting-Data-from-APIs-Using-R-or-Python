@@ -2,7 +2,7 @@
 """
 Created on Sun Aug 14 15:27:38 2016
 
-@author: hinnc
+@author: Hin
 """
 
 import tweepy
