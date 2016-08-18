@@ -2,8 +2,8 @@
 Extracting and Formatting Data Using R or Python from Several Popular Social Media
 
 R:
-Linkedin
-Zillow
+* Linkedin
+* Zillow
 
 Python:
-Twitter
+* Twitter
