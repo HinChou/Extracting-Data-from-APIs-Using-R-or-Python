@@ -9,7 +9,6 @@ import tweepy
 import re
 
 
-
 def get_text_twitter(twitter_id, cs_key, cs_secret, as_token, as_token_secret):
     """
     Get maximal amount of twitters from an account(twitter_id),
@@ -55,5 +54,5 @@ def get_text_twitter(twitter_id, cs_key, cs_secret, as_token, as_token_secret):
     # Template: [item for sublist in l for item in sublist], l is the list to be flattened.
     tweets_all = [item for sublist in tweet_all_list for item in sublist]
     
-    return tweets_all
+    return (tweets_all)
     
