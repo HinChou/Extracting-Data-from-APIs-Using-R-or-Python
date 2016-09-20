@@ -49,6 +49,8 @@ def get_text_twitter(twitter_id, cs_key, cs_secret, as_token, as_token_secret):
         text_str = str(text_str)
         tweets_text = regex.findall(text_str)
         tweet_all_list.append(tweets_text)
+    # list comprehesion for the codes above 
+    # tweet_all_list = [regex.findall(str(text_str)) for text_str in twitter_contents]
     
     # Retrieved a flat list out of list of lists (Looks like it's also a fast way)  
     # Template: [item for sublist in l for item in sublist], l is the list to be flattened.
