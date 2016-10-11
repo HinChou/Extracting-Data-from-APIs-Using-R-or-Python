@@ -6,4 +6,4 @@ R:
 * Zillow: Limited 1000 hit per day
 
 Python:
-* Twitter: Around 3k context from each id
+* Twitter: Around 3k texts content from each id
