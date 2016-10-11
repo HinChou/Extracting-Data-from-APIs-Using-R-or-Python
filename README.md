@@ -3,7 +3,7 @@ Extracting and Formatting Data Using R or Python from Several Popular Social Med
 
 R:
 * Linkedin: Some features had been blocked by LinkedIn
-* Zillow
+* Zillow: Limited 1000 hit per day
 
 Python:
-* Twitter
+* Twitter: Around 3k context from each id
